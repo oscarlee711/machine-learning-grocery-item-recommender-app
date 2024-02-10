@@ -1,0 +1,168 @@
+LOOKUP SQL
+select 'abrasive cleaner' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ABRASIVE$CLEANER%' limit 1
+select 'artif. sweetener' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SWEETENER%' limit 1
+select 'baby cosmetics' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BABY$COSMETICS%' limit 1
+select 'bags' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BAGS%' limit 1
+select 'baking powder' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BAKING$POWDER%' limit 1
+select 'bathroom cleaner' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BATHROOM$CLEANER%' limit 1
+select 'beef' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BEEF%' limit 1
+select 'berries' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BERRIES%' limit 1
+select 'beverages' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BEVERAGES%' limit 1
+select 'bottled beer' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BOTTLED$BEER%' limit 1
+select 'bottled water' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BOTTLED$WATER%' limit 1
+select 'brandy' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BRANDY%' limit 1
+select 'brown bread' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BROWN$BREAD%' limit 1
+select 'butter' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BUTTER%' limit 1
+select 'butter milk' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%BUTTER$MILK%' limit 1
+select 'cake bar' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CAKE$BAR%' limit 1
+select 'candles' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANDLES%' limit 1
+select 'candy' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANDY%' limit 1
+select 'canned beer' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANNED$BEER%' limit 1
+select 'canned fish' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANNED$FISH%' limit 1
+select 'canned fruit' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANNED$FRUIT%' limit 1
+select 'canned vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CANNED$VEGETABLES%' limit 1
+select 'cat food' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CAT$FOOD%' limit 1
+select 'cereals' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CEREALS%' limit 1
+select 'chewing gum' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CHEWING$GUM%' limit 1
+select 'chicken' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CHICKEN%' limit 1
+select 'chocolate' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CHOCOLATE%' limit 1
+select 'chocolate marshmallow' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CHOCOLATE$MARSHMALLOW%' limit 1
+select 'citrus fruit' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CITRUS$FRUIT%' limit 1
+select 'cleaner' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CLEANER%' limit 1
+select 'cling film/bags' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CLING$FILM/BAGS%' limit 1
+select 'cocoa drinks' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%COCOA$DRINKS%' limit 1
+select 'coffee' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%COFFEE%' limit 1
+select 'condensed milk' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CONDENSED$MILK%' limit 1
+select 'cooking chocolate' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%COOKING$CHOCOLATE%' limit 1
+select 'cookware' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%COOKWARE%' limit 1
+select 'cream' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CREAM%' limit 1
+select 'cream cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CREAM$CHEESE%' limit 1
+select 'curd' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CURD%' limit 1
+select 'curd cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%CURD$CHEESE%' limit 1
+select 'decalcifier' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DECALCIFIER%' limit 1
+select 'dental care' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DENTAL$CARE%' limit 1
+select 'dessert' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DESSERT%' limit 1
+select 'detergent' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DETERGENT%' limit 1
+select 'dish cleaner' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DISH$CLEANER%' limit 1
+select 'dishes' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DISHES%' limit 1
+select 'dog food' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DOG$FOOD%' limit 1
+select 'domestic eggs' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%DOMESTIC$EGGS%' limit 1
+select 'female sanitary products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FEMALE$SANITARY$PRODUCTS%' limit 1
+select 'finished products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FINISHED$PRODUCTS%' limit 1
+select 'fish' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FISH%' limit 1
+select 'flour' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FLOUR%' limit 1
+select 'flower (seeds)' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FLOWER$(SEEDS)%' limit 1
+select 'flower soil/fertilizer' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FLOWER$SOIL/FERTILIZER%' limit 1
+select 'frankfurter' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FRANKFURTER%' limit 1
+select 'frozen chicken' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$CHICKEN%' limit 1
+select 'frozen dessert' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$DESSERT%' limit 1
+select 'frozen fish' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$FISH%' limit 1
+select 'frozen fruits' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$FRUITS%' limit 1
+select 'frozen meals' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$MEALS%' limit 1
+select 'frozen potato products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$POTATO$PRODUCTS%' limit 1
+select 'frozen vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FROZEN$VEGETABLES%' limit 1
+select 'fruit/vegetable juice' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%FRUIT/VEGETABLE$JUICE%' limit 1
+select 'grapes' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%GRAPES%' limit 1
+select 'hair spray' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HAIR$SPRAY%' limit 1
+select 'ham' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HAM%' limit 1
+select 'hamburger meat' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HAMBURGER$MEAT%' limit 1
+select 'hard cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HARD$CHEESE%' limit 1
+select 'herbs' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HERBS%' limit 1
+select 'honey' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HONEY%' limit 1
+select 'house keeping products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HOUSE$KEEPING$PRODUCTS%' limit 1
+select 'hygiene articles' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%HYGIENE$ARTICLES%' limit 1
+select 'ice cream' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ICE$CREAM%' limit 1
+select 'instant coffee' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%INSTANT$COFFEE%' limit 1
+select 'Instant food products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%INSTANT$FOOD$PRODUCTS%' limit 1
+select 'jam' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%JAM%' limit 1
+select 'ketchup' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%KETCHUP%' limit 1
+select 'kitchen towels' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%KITCHEN$TOWELS%' limit 1
+select 'kitchen utensil' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%KITCHEN$UTENSIL%' limit 1
+select 'light bulbs' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LIGHT$BULBS%' limit 1
+select 'liqueur' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LIQUEUR%' limit 1
+select 'liquor' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LIQUOR%' limit 1
+select 'liquor (appetizer)' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LIQUOR%' limit 1
+select 'liver loaf' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LIVER$LOAF%' limit 1
+select 'long life bakery product' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%LONG$LIFE$BAKERY%' limit 1
+select 'make up remover' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MAKE$UP$REMOVER%' limit 1
+select 'male cosmetics' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MALE$COSMETICS%' limit 1
+select 'margarine' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MARGARINE%' limit 1
+select 'mayonnaise' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MAYONNAISE%' limit 1
+select 'meat' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MEAT%' limit 1
+select 'meat spreads' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MEAT$SPREADS%' limit 1
+select 'misc. beverages' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MISC.$BEVERAGES%' limit 1
+select 'mustard' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%MUSTARD%' limit 1
+select 'napkins' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%NAPKINS%' limit 1
+select 'newspapers' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%NEWSPAPERS%' limit 1
+select 'nut snack' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%NUT$SNACK%' limit 1
+select 'nuts/prunes' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%NUTS/PRUNES%' limit 1
+select 'oil' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%OIL%' limit 1
+select 'onions' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ONIONS%' limit 1
+select 'organic products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ORGANIC$PRODUCTS%' limit 1
+select 'organic sausage' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ORGANIC$SAUSAGE%' limit 1
+select 'other vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%VEGETABLES%' limit 1
+select 'packaged fruit/vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PACKAGED$FRUIT%' limit 1
+select 'pasta' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PASTA%' limit 1
+select 'pastry' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PASTRY%' limit 1
+select 'pet care' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PET$CARE%' limit 1
+select 'photo/film' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PHOTO/FILM%' limit 1
+select 'pickled vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PICKLED$VEGETABLES%' limit 1
+select 'pip fruit' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PIP$FRUIT%' limit 1
+select 'popcorn' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%POPCORN%' limit 1
+select 'pork' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PORK%' limit 1
+select 'pot plants' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%POT$PLANTS%' limit 1
+select 'potato products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%POTATO$PRODUCTS%' limit 1
+select 'preservation products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PRESERVATION$PRODUCTS%' limit 1
+select 'processed cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PROCESSED$CHEESE%' limit 1
+select 'prosecco' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PROSECCO%' limit 1
+select 'pudding powder' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%PUDDING$POWDER%' limit 1
+select 'ready soups' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%READY$SOUPS%' limit 1
+select 'red/blush wine' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%RED$WINE%' limit 1
+select 'rice' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%RICE%' limit 1
+select 'roll products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ROLL$PRODUCTS%' limit 1
+select 'rolls/buns' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ROLLS$BUNS%' limit 1
+select 'root vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ROOT$VEGETABLES%' limit 1
+select 'rubbing alcohol' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%RUBBING$ALCOHOL%' limit 1
+select 'rum' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%RUM%' limit 1
+select 'salad dressing' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SALAD$DRESSING%' limit 1
+select 'salt' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SALT%' limit 1
+select 'salty snack' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SALTY$SNACK%' limit 1
+select 'sauces' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SAUCES%' limit 1
+select 'sausage' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SAUSAGE%' limit 1
+select 'seasonal products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SEASONAL$PRODUCTS%' limit 1
+select 'semi-finished bread' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SEMI-FINISHED$BREAD%' limit 1
+select 'shopping bags' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SHOPPING$BAGS%' limit 1
+select 'skin care' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SKIN$CARE%' limit 1
+select 'sliced cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SLICED$CHEESE%' limit 1
+select 'snack products' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SNACK$PRODUCTS%' limit 1
+select 'soap' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SOAP%' limit 1
+select 'soda' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SODA%' limit 1
+select 'soft cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SOFT$CHEESE%' limit 1
+select 'softener' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SOFTENER%' limit 1
+select 'soups' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SOUPS%' limit 1
+select 'sparkling wine' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPARKLING$WINE%' limit 1
+select 'specialty bar' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPECIALTY$BAR%' limit 1
+select 'specialty cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPECIALTY$CHEESE%' limit 1
+select 'specialty chocolate' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPECIALTY$CHOCOLATE%' limit 1
+select 'specialty fat' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPECIALTY$FAT%' limit 1
+select 'specialty vegetables' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPECIALTY$VEGETABLES%' limit 1
+select 'spices' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPICES%' limit 1
+select 'spread cheese' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SPREAD$CHEESE%' limit 1
+select 'sugar' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SUGAR%' limit 1
+select 'sweet spreads' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SWEET$SPREADS%' limit 1
+select 'syrup' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%SYRUP%' limit 1
+select 'tea' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%TEA%' limit 1
+select 'tidbits' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%TIDBITS%' limit 1
+select 'toilet cleaner' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%TOILET$CLEANER%' limit 1
+select 'tropical fruit' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%TROPICAL$FRUIT%' limit 1
+select 'turkey' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%TURKEY%' limit 1
+select 'UHT-milk' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%UHT-MILK%' limit 1
+select 'vinegar' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%VINEGAR%' limit 1
+select 'waffles' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WAFFLES%' limit 1
+select 'whipped/sour cream' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WHIPPED$SOUR$CREAM%' limit 1
+select 'whisky' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WHISKY%' limit 1
+select 'white bread' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WHITE$BREAD%' limit 1
+select 'white wine' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WHITE$WINE%' limit 1
+select 'whole milk' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%WHOLE$MILK%' limit 1
+select 'yogurt' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%YOGURT%' limit 1
+select 'zwieback' AS ITEM_DESC, ITEM_NAME, ITEM_ID from ITEM where upper(ITEM_NAME) like '%ZWIEBACK%' limit 1

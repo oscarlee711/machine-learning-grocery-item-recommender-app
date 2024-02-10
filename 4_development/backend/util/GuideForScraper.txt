@@ -1,0 +1,28 @@
+Python Version: Built on 3.8
+
+Required Python Modules:
+os
+csv
+Selenium
+Selenium_stealth
+Playwright
+Webdriver_manager
+Bs4
+Urllib
+Datetime
+PIL
+Gcloud
+MySQL Python Connector
+Pandas
+
+Before you start, you must set appropriate directories for the images and data scrapped from the sites, and the folders must already exist.
+	The file that needs adjusting is Base.py, on lines 18,19,22,23
+	e.g. ColesDataPath = "C:\\Users\\Test\\Desktop\\"
+	The program will tell you the directories in use upon startup.
+
+MySQL details must also be provided before you start uploading data.
+	The file that needs adjusting is ScraperDefs.py on line 209.
+	You will need to provide the database address, your username, and password that will grant write access to the database.
+	The database does not automatically clear before uploading for safety purposes, so to avoid clutter, you must clear the mentioned tables before a full upload.
+
+The credentials file for the Google cloud service is included.
